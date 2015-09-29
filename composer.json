@@ -1,0 +1,21 @@
+{
+    "name": "taskforcedev/laravel-support",
+    "description": "Laravel support package.  Used by other Taskforcedev packages.",
+    "authors": [
+        {
+            "name": "Taskforcedev",
+            "email": "taskforce2eu@gmail.com"
+        }
+    ],
+    "keywords": ["laravel", "support"],
+    "require": {
+        "php": ">=5.5.0",
+        "laravel/framework": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Taskforcedev\\LaravelSupport\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
