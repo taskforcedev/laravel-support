@@ -1,4 +1,4 @@
-<?php namespace Taskforcedev\LaravelSupport\Http\Controllers
+<?php namespace Taskforcedev\LaravelSupport\Http\Controllers;
 
 use Illuminate\Routing\Controller as IlluminateController;
 use Illuminate\Console\AppNamespaceDetectorTrait;
