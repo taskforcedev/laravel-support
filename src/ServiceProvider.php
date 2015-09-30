@@ -20,7 +20,6 @@ class ServiceProvider extends IlluminateServiceProvider
     {
         $this->config();
         $this->views();
-        $this->routes();
     }
 
     private function config()
@@ -47,11 +46,6 @@ class ServiceProvider extends IlluminateServiceProvider
     private function views()
     {
         $this->loadViewsFrom(__DIR__.'/views', 'taskforce-support');
-    }
-
-    private function routes()
-    {
-        require __DIR__ . '/Http/routes.php';
     }
 
     public function register()
