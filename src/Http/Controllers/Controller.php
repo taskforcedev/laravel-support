@@ -25,7 +25,7 @@ class Controller extends IlluminateController
      */
     public function getLayout()
     {
-        return config('taskforce-support.views.layout');
+        return config('taskforce-support.layout');
     }
 
     /**
