@@ -101,4 +101,23 @@ class Controller extends IlluminateController
         }
         return false;
     }
+
+    public function getModel($model)
+    {
+        /* Get the namespace */
+        $ns = $this->getAppNamespace();
+        if ($ns) {
+            /* Try laravel default convention (models in the app folder). */
+            $qm = $ns . $model;
+            if (class_exists($qm)) {
+                return new $qm;
+            }
+            /* Try secondary convention of having a models directory. */
+            $qm = $ns . 'Models' . '\\' . $model;
+            if (class_exists($qm)) {
+                return new $qm;
+            }
+        }
+        return false;
+    }
 }
