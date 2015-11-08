@@ -13,3 +13,8 @@ This package provides a single place where the following can be configured and u
 - Sitename (aka brand, used in bootstrap navbar on some templates.)
 
 - Layout (which layout to use, provides all packages the same visual theme if set to your own custom layout.).
+
+## Publish Config
+In order to edit the configuration please run the following command to publish the taskforce-support.php file into your apps config directory
+
+<code>php artisan vendor:publish --tag="taskforce-support"</code>
