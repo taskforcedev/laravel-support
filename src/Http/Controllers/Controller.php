@@ -3,6 +3,7 @@
 use \Auth;
 use Illuminate\Routing\Controller as IlluminateController;
 use Illuminate\Console\AppNamespaceDetectorTrait;
+use Taskforcedev\LaravelSupport\Helpers\User;
 
 class Controller extends IlluminateController
 {
@@ -51,16 +52,8 @@ class Controller extends IlluminateController
      */
     private function guest()
     {
-        /* Get the namespace */
-        $model = $this->getUserModel();
-        if ($model) {
-            $guest = new $model();
-            $guest->name = 'Guest';
-            $guest->email = 'guest@example.com';
-        } else {
-            $guest = (object)['name' => 'Guest', 'email' => 'guest@example.com'];
-        }
-        return $guest;
+        $user = new User();
+        return $user->createGuest();
     }
 
     /**
@@ -69,37 +62,14 @@ class Controller extends IlluminateController
      */
     protected function canAdministrate()
     {
-        $user = $this->getUser();
-        if ($user->name == 'Guest' && $user->email == 'guest@example.com') {
-            return false;
-        }
-        if (method_exists($user, 'isAdmin')) {
-            return $user->isAdmin();
-        }
-        if (method_exists($user, 'can')) {
-            return $user->can('administrate') || $user->can('admin');
-        }
-        // If no method of authorizing return false;
-        return false;
+        $user = new User();
+        return $user->canAdministrate();
     }
 
     public function getUserModel()
     {
-        /* Get the namespace */
-        $ns = $this->getAppNamespace();
-        if ($ns) {
-            /* Try laravel default convention (models in the app folder). */
-            $model = $ns . 'User';
-            if (class_exists($model)) {
-                return $model;
-            }
-            /* Try secondary convention of having a models directory. */
-            $model = $ns . 'Models\User';
-            if (class_exists($model)) {
-                return $model;
-            }
-        }
-        return false;
+        $user = new User();
+        return $user->getUserModel();
     }
 
     public function getModel($model)
