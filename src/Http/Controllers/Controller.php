@@ -66,12 +66,21 @@ class Controller extends IlluminateController
         return $user->canAdministrate();
     }
 
+    /**
+     * Get the user model.
+     * @return bool|string
+     */
     public function getUserModel()
     {
         $user = new User();
         return $user->getUserModel();
     }
 
+    /**
+     * Attempt to get an apps model from namespace.
+     * @param $model
+     * @return bool
+     */
     public function getModel($model)
     {
         /* Get the namespace */
