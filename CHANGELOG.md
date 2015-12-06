@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+### Changed
+- Extracted user model detection code into seperate re-usable helper
+- Updated README
+### Added
+- Create .gitignore and .gitattributes files.
+
 ## [1.0.4] - 2015-10-22
 ### Fixed
 - Fix config value retrieval for layout.
