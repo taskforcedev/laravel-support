@@ -30,7 +30,6 @@ This can then be used in eloquent relations within packages to prevent hardcodin
 
     Class whatever
     {
-    
         public function author() {
             $userHelper = new UserHelper();</code>
             $model = $userHelper->getUserModel();
