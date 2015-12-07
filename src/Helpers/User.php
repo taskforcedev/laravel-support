@@ -36,7 +36,7 @@ class User
      */
     public function getUser()
     {
-        return (Auth::check() ? \Auth::user() : $this->guest());
+        return (Auth::check() ? \Auth::user() : $this->createGuest());
     }
 
     /**
