@@ -1,5 +1,6 @@
 <?php namespace Taskforcedev\LaravelSupport\Helpers;
 
+use \Auth;
 use Illuminate\Console\AppNamespaceDetectorTrait;
 
 class User
