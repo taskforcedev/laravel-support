@@ -2,7 +2,15 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
+## [1.0.7] - 2015-12-07
+### Fixed
+- Fix method calling from $this->guest() to $this->createGuest()
+
+## [1.0.6] - 2015-12-06
+### Fixed
+- Add missing use statement.
+
+## [1.0.5] - 2015-12-06
 ### Changed
 - Extracted user model detection code into seperate re-usable helper
 - Updated README
