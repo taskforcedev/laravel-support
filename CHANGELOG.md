@@ -38,3 +38,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Added master layout which packages can extend (Includes jQuery/Bootstrap).
 - Ability to configure sitename which can be used in depending packages.
 - Ability to configure layout choice in one central package (makes site using multiple packages consistent).
+
+
+[Unreleased]: https://github.com/taskforcedev/laravel-support/compare/v1.0.7...HEAD
+[1.0.7]: https://github.com/taskforcedev/laravel-support/compare/v1.0.6...v1.0.7
+[1.0.6]: https://github.com/taskforcedev/laravel-support/compare/v1.0.5...v1.0.6
+[1.0.5]: https://github.com/taskforcedev/laravel-support/compare/v1.0.4...v1.0.5
+[1.0.4]: https://github.com/taskforcedev/laravel-support/compare/v1.0.3...v1.0.4
+[1.0.3]: https://github.com/taskforcedev/laravel-support/compare/v1.0.2...v1.0.3
+[1.0.2]: https://github.com/taskforcedev/laravel-support/compare/v1.0.1...v1.0.2
+[1.0.1]: https://github.com/taskforcedev/laravel-support/compare/v1.0.0...v1.0.1
