@@ -1,6 +1,7 @@
 <?php namespace Taskforcedev\LaravelSupport\Helpers;
 
-use \Auth;
+use Auth;
+use Config;
 use Illuminate\Console\AppNamespaceDetectorTrait;
 
 class User
@@ -13,7 +14,12 @@ class User
      */
     public function getUserModel()
     {
-        /* Get the namespace */
+        /* Check the app's auth config, first */
+        $model = Config::get('auth.model');
+        if (class_exists($model)) {
+            return $model;
+        }
+        /* That didn't work, so let's try our fallback.  First get the namespace */
         $ns = $this->getAppNamespace();
         if ($ns) {
             /* Try laravel default convention (models in the app folder). */
@@ -36,7 +42,7 @@ class User
      */
     public function getUser()
     {
-        return (Auth::check() ? \Auth::user() : $this->createGuest());
+        return (Auth::check() ? Auth::user() : $this->createGuest());
     }
 
     /**
