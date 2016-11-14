@@ -4,10 +4,13 @@ use \Auth;
 use Illuminate\Routing\Controller as IlluminateController;
 use Illuminate\Console\AppNamespaceDetectorTrait;
 use Taskforcedev\LaravelSupport\Helpers\User;
+use Illuminate\Foundation\Bus\DispatchesJobs;
+use Illuminate\Foundation\Validation\ValidatesRequests;
+use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 
 class Controller extends IlluminateController
 {
-    use AppNamespaceDetectorTrait;
+    use AuthorizesRequests, DispatchesJobs, ValidatesRequests, AppNamespaceDetectorTrait;
 
     /**
      * Populates $data object for use in controlers.
