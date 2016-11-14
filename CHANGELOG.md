@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.0.9] - 2016-11-14
+### Changed
+- Add validation, job dispatch and auth into base controller.
+
+## [1.0.8] - 2016-05-12
+### Added
+- Merge code from danhunsaker to use laravel config to return user model.
+
 ## [1.0.7] - 2015-12-07
 ### Fixed
 - Fix method calling from $this->guest() to $this->createGuest()
