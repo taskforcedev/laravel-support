@@ -5,6 +5,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## [1.0.9] - 2016-11-14
 ### Changed
 - Add validation, job dispatch and auth into base controller.
+- Changed documentation to reflect support only for Laravel 5.3 or above.
 
 ## [1.0.8] - 2016-05-12
 ### Added
