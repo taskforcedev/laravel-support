@@ -17,11 +17,17 @@ class Controller extends IlluminateController
      */
     protected function buildData()
     {
-        return [
+        $data = [
             'layout' => $this->getLayout(),
             'isAdmin' => $this->canAdministrate(),
             'sitename' => $this->getSitename(),
         ];
+
+        if (Auth::check()) {
+            $data['user'] = Auth::user();
+        }
+
+        return $data;
     }
 
     /**
