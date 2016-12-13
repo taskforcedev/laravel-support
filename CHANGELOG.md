@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+### Changed
+- Use built-in app.name instead of taskforce-support.sitename - (no need to duplicate config).
+
 ## [1.0.10] - 2016-11-16
 ### Changed
 - buildData() now also passes user variable if user is logged in.

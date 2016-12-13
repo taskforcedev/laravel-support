@@ -52,7 +52,7 @@ class Controller extends IlluminateController
      */
     public function getSitename()
     {
-        return config('taskforce-support.sitename');
+        return config('app.name', 'Laravel');
     }
 
     /**
