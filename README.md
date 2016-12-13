@@ -28,9 +28,9 @@ Then if you don't already have the following entry in your config/app.php add it
 ### Configuration
 This package provides a single place where the following can be configured and used by packages which use this.
 
-- Sitename (aka brand, used in bootstrap navbar on some templates.)
-
 - Layout (which layout to use, provides all packages the same visual theme if set to your own custom layout.).
+
+- Frameworks, allows you to specify which frameworks are enabled in your layouts - Other packages can then use this information to load appropriate displays.
 
 ### Publish Config
 In order to edit the configuration please run the following command to publish the taskforce-support.php file into your apps config directory
