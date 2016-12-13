@@ -15,13 +15,11 @@ class Controller extends IlluminateController
     /**
      * Populates $data object for use in controlers.
      */
-    protected function buildData()
+    protected function buildData($data = [])
     {
-        $data = [
-            'layout' => $this->getLayout(),
-            'isAdmin' => $this->canAdministrate(),
-            'sitename' => $this->getSitename(),
-        ];
+        $data['layout'] = $this->getLayout();
+        $data['isAdmin'] = $this->canAdministrate();
+        $data['sitename'] = $this->getSitename();
 
         if (Auth::check()) {
             $data['user'] = Auth::user();
