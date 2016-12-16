@@ -10,7 +10,7 @@ return array(
          * Use this section to indicate if your view supports any of the following libraries.
          *
          * When using the master layout provided by this package the frameworks will be pulled from
-         * their respective cdn's.
+         * their respective cdn's if load_from_cns is set to true.
          *
          * Use true/false
          */

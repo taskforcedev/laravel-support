@@ -2,9 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
+## [1.0.11] - 2016-12-16
+### Added
+- Add list of frameworks into the taskforce-support config, this will allow packages to use the correct classes in views etc.
+
 ### Changed
 - Use built-in app.name instead of taskforce-support.sitename - (no need to duplicate config).
+- Update requirements to Laravel 5.3 as app.name is new to that version.
 
 ### Removed
 - Remove config field for sitename.
