@@ -15,11 +15,23 @@ return array(
          * Use true/false
          */
         'libraries' => [
-            'jquery' => true,
+            // Currently does nothing but in the future will allow for a method that
+            // Will add these files into the head/scripts section.
+            'load_from_cdn' => false,
 
-            'foundation' => false,
+            // jQuery listed separately as is a dependency of a lot of the other frameworks.
+            'jquery'        => true,
 
-            'bootstrap' => false, // Requires jQuery
+            'bootstrap3'     => false, // Requires jQuery
+            'bootstrap4'     => false, // Requires jQuery
+            'foundation6'    => false,
+
+            'angularjs'     => false,
+            'backbone'      => false,
+            'ember'         => false,
+            'react'         => false,
+            'vuejs'         => false,
+            'emberjs'       => false,
         ]
     ],
 
