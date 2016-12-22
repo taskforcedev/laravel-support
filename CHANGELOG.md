@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+### Added
+- Add a composer helper class to aid in determining if a composer package exists.
+
 ## [1.0.11] - 2016-12-16
 ### Added
 - Add list of frameworks into the taskforce-support config, this will allow packages to use the correct classes in views etc.
