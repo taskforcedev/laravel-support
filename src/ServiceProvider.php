@@ -50,7 +50,9 @@ class ServiceProvider extends IlluminateServiceProvider
 
     public function register()
     {
-        //
+        $this->app->bind('composer', function ($app) {
+            return new \Taskforcedev\LaravelSupport\Helpers\UI();
+        });
     }
 
     public function provides()
