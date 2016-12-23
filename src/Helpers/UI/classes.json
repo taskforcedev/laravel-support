@@ -1,0 +1,14 @@
+{
+  "bs3": {
+    "button": "btn",
+    "label": "",
+    "input": "form-control"
+  },
+  "bs4": {
+    "button": "btn",
+    "input": "form-control"
+  },
+  "f6": {
+    "button": "button"
+  }
+}
