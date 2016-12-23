@@ -15,7 +15,7 @@ class UI
         $this->json = json_decode(file_get_contents(__DIR__ . '/UI/classes.json'));
     }
 
-    public function getClasses($type)
+    public function cssClass($type)
     {
         if ($this->bs3) {
             $framework = $this->json->bs3;
