@@ -53,3 +53,11 @@ This can then be used in eloquent relations within packages to prevent hardcodin
             return $this->belongsTo($model);
         }
     }
+
+## Contributing
+
+Issues and pull requests are always appreciated, particularly anything relating to the new UI facade.
+
+Please ensure any PHP is PSR-2 standard.
+
+For anything else please raise a gihub issue.
