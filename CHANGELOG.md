@@ -2,9 +2,12 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
+## [1.0.12] - 2016-12-23
 ### Added
 - Add a composer helper class to aid in determining if a composer package exists.
+- Add a UI helper class to assist in providing framework specific classes.
+- Create a facade for accessing Composer and UI helper classes.
+- Composer: Add ability to check if a package exists.
 
 ## [1.0.11] - 2016-12-16
 ### Added
