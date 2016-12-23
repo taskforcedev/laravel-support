@@ -1,6 +1,8 @@
 <?php namespace Taskforcedev\LaravelSupport;
 
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
+use Taskforcedev\LaravelSupport\Helpers\UI;
+use Taskforcedev\LaravelSupport\Helpers\Composer;
 
 class ServiceProvider extends IlluminateServiceProvider
 {
@@ -50,9 +52,8 @@ class ServiceProvider extends IlluminateServiceProvider
 
     public function register()
     {
-        $this->app->bind('composer', function ($app) {
-            return new \Taskforcedev\LaravelSupport\Helpers\UI();
-        });
+        $this->app->bind('support.composer', Composer::class);
+        $this->app->bind('support.ui', UI::class);
     }
 
     public function provides()

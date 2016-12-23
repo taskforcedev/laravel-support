@@ -11,5 +11,8 @@ class Composer extends Facade
      *
      * @return string
      */
-    protected static function getFacadeAccessor() { return 'composer'; }
+    protected static function getFacadeAccessor()
+    {
+        return 'support.composer';
+    }
 }

@@ -1,5 +1,7 @@
 <?php
 
+namespace Taskforcedev\LaravelSupport\Facades;
+
 use Illuminate\Support\Facades\Facade;
 
 class UI extends Facade
@@ -9,5 +11,8 @@ class UI extends Facade
      *
      * @return string
      */
-    protected static function getFacadeAccessor() { return 'ui'; }
+    protected static function getFacadeAccessor()
+    {
+        return 'support.ui';
+    }
 }
