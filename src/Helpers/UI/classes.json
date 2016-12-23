@@ -7,10 +7,15 @@
     "card_title": "",
     "card_content": "panel-body",
     "card_footer": "panel-footer",
+    "column_extra_small": "col-xs-",
+    "column_small": "col-sm-",
+    "column_medium": "col-md-",
+    "column_large": "col-lg-",
     "input": "form-control",
     "label": "label",
     "row": "row",
     "table": "table"
+
   },
 
   "bs4": {
@@ -20,6 +25,10 @@
     "card_title": "card-title",
     "card_content": "card-block",
     "card_footer": "card-footer",
+    "column_extra_small": "col-xs-",
+    "column_small": "col-sm-",
+    "column_medium": "col-md-",
+    "column_large": "col-lg-",
     "input": "form-control",
     "label": "label",
     "row": "row",
@@ -33,6 +42,10 @@
     "card_title": "",
     "card_content": "card-section",
     "card_footer": "card-divider",
+    "column_extra_small": "small-",
+    "column_small": "small-",
+    "column_medium": "medium-",
+    "column_large": "large-",
     "row": "row",
     "table": ""
   }
