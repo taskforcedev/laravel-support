@@ -1,14 +1,40 @@
 {
+
   "bs3": {
     "button": "btn",
-    "label": "",
-    "input": "form-control"
+    "card": "panel",
+    "card_heading": "panel-heading",
+    "card_title": "",
+    "card_content": "panel-body",
+    "card_footer": "panel-footer",
+    "input": "form-control",
+    "label": "label",
+    "row": "row",
+    "table": "table"
   },
+
   "bs4": {
     "button": "btn",
-    "input": "form-control"
+    "card": "card",
+    "card_heading": "card-header",
+    "card_title": "card-title",
+    "card_content": "card-block",
+    "card_footer": "card-footer",
+    "input": "form-control",
+    "label": "label",
+    "row": "row",
+    "table": "table"
   },
+
   "f6": {
-    "button": "button"
+    "button": "button",
+    "card": "card",
+    "card_heading": "card-divider",
+    "card_title": "",
+    "card_content": "card-section",
+    "card_footer": "card-divider",
+    "row": "row",
+    "table": ""
   }
+
 }
