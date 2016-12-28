@@ -15,6 +15,13 @@ class UI
         $this->json = json_decode(file_get_contents(__DIR__ . '/UI/classes.json'));
     }
 
+    /**
+     * Get the css class for a given object type.
+     *
+     * @param string $type Object type.
+     *
+     * @return string
+     */
     public function cssClass($type)
     {
         $framework = $this->getFramework();
@@ -79,6 +86,13 @@ class UI
         return '';
     }
 
+    /**
+     * Get the css class matrix for the given framework.
+     *
+     * @param string $framework Framework.
+     *
+     * @return string
+     */
     public function getClasses($framework)
     {
         switch ($framework)
@@ -99,6 +113,13 @@ class UI
         return $classes;
     }
 
+    /**
+     * Join array of classes into a string.
+     *
+     * @param array $classes CSS class array.
+     *
+     * @return string
+     */
     public function buildClassString($classes = [])
     {
         return join(' ', $classes);
