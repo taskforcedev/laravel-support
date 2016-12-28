@@ -32,6 +32,7 @@
     @if (isset($isAdmin) && $isAdmin)
         <p class="info">Admin Note: We highly recommend editing the taskforce-support.php in your config folder to change the layout to match your own site layout.</p>
     @endif
+    @yield('breadcrumbs')
     @yield('content')
 </div>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
