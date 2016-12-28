@@ -2,6 +2,15 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+### Added
+- Master Layout: Add additional yield's for the following:
+  * head
+  * styles
+  * breadcrumbs
+  * navigation
+  * scripts
+
 ## [1.0.12] - 2016-12-23
 ### Added
 - Add a composer helper class to aid in determining if a composer package exists.
