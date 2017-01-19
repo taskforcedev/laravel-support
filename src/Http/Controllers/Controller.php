@@ -7,6 +7,7 @@ use Taskforcedev\LaravelSupport\Helpers\User;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
+use Taskforcedev\LaravelSupport\Helpers\UI as UIHelper;
 
 class Controller extends IlluminateController
 {
@@ -17,9 +18,12 @@ class Controller extends IlluminateController
      */
     protected function buildData($data = [])
     {
+        $uiHelper = new UIHelper();
+
         $data['layout'] = $this->getLayout();
         $data['isAdmin'] = $this->canAdministrate();
         $data['sitename'] = $this->getSitename();
+        $data['framework'] = $uiHelper->getFramework();
 
         if (Auth::check()) {
             $data['user'] = Auth::user();
