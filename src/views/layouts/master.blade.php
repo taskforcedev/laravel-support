@@ -12,13 +12,13 @@ $partial = 'taskforce-support::partials.' . $framework;
 </head>
 <body>
     @include($partial . '._navbar')
-<div class="container">
+    <div class="{{ $ui->cssClass('container') }}">
     @if (isset($isAdmin) && $isAdmin)
         <p class="info">Admin Note: We highly recommend editing the taskforce-support.php in your config folder to change the layout to match your own site layout.</p>
     @endif
     @yield('breadcrumbs')
     @yield('content')
-</div>
+    </div>
     @include($partial . '._scripts')
     @yield('scripts')
 </body>
