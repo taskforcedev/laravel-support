@@ -27,11 +27,11 @@ class ServiceProvider extends IlluminateServiceProvider
     private function config()
     {
         $this->publishes([
-            __DIR__.'/config/taskforce-support.php' => config_path('taskforce-support.php'),
+            __DIR__ . '/../config/taskforce-support.php' => config_path('taskforce-support.php'),
         ], 'taskforce-support');
 
         $this->mergeConfigFrom(
-            __DIR__.'/config/taskforce-support.php',
+            __DIR__ . '/../config/taskforce-support.php',
             'taskforce-support'
         );
 
@@ -47,7 +47,7 @@ class ServiceProvider extends IlluminateServiceProvider
 
     private function views()
     {
-        $this->loadViewsFrom(__DIR__.'/views', 'taskforce-support');
+        $this->loadViewsFrom(__DIR__.'../resources/views', 'taskforce-support');
     }
 
     public function register()
