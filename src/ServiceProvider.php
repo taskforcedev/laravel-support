@@ -47,7 +47,7 @@ class ServiceProvider extends IlluminateServiceProvider
 
     private function views()
     {
-        $this->loadViewsFrom(__DIR__.'../resources/views', 'taskforce-support');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'taskforce-support');
     }
 
     public function register()
