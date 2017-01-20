@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.0.17] - 2017-01-20
+### Fixed
+ - Fix issue with layouts namespace.
+
 ## [1.0.16] - 2017-01-20
 ### Added
  - Add bootstrap 3 view partials.
