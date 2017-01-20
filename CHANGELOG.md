@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.0.16] - 2017-01-20
+### Added
+ - Add bootstrap 3 view partials.
+
+### Changed
+ - Test new bootstrap 4 navbar structure.
+
 ## [1.0.15] - 2017-01-20
 ### Added
  - Add views partials for BS4 and F6.
