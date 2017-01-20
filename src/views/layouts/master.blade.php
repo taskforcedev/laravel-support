@@ -2,7 +2,7 @@
 if (!isset($framework)) {
     $framework = 'bs4';
 }
-$partial = 'pdcms::partials.' . $framework;
+$partial = 'taskforce-support::partials.' . $framework;
 ?><!DOCTYPE html>
 <html>
 <head>
