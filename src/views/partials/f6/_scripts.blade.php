@@ -1,1 +1,2 @@
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/js/foundation.min.js" integrity="sha256-IZcV0C0I1dS0/ygfO3lToRPhj+1PbFqYtK/cMb/cJLY=" crossorigin="anonymous"></script>
