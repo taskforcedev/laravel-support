@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.0.15] - 2017-01-20
+### Added
+ - Add views partials for BS4 and F6.
+ - Use CDN for foundation 6.
+ - Pass UI helper through to views for css class helping.
+
 ## [1.0.14] - 2017-01-20
 ### Fixed
  - Use correct view namespace.
