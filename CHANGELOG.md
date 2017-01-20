@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.0.14] - 2017-01-20
+### Fixed
+ - Use correct view namespace.
+
 ## [1.0.13] - 2017-01-19
 ### Added
 - Master Layout: Add additional yield's for the following:
