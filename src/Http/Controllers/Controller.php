@@ -20,10 +20,11 @@ class Controller extends IlluminateController
     {
         $uiHelper = new UIHelper();
 
-        $data['layout'] = $this->getLayout();
-        $data['isAdmin'] = $this->canAdministrate();
-        $data['sitename'] = $this->getSitename();
-        $data['framework'] = $uiHelper->getFramework();
+        $data['layout'] = $this->getLayout(); // Configuration
+        $data['isAdmin'] = $this->canAdministrate(); // Permissions
+        $data['sitename'] = $this->getSitename(); // Configuration
+        $data['framework'] = $uiHelper->getFramework(); // Configuration
+        $data['ui'] = $uiHelper; // Class
 
         if (Auth::check()) {
             $data['user'] = Auth::user();
