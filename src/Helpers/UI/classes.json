@@ -1,5 +1,4 @@
 {
-
   "bs3": {
     "button": "btn",
     "card": "panel",
@@ -17,9 +16,7 @@
     "label": "label",
     "row": "row",
     "table": "table"
-
   },
-
   "bs4": {
     "button": "btn",
     "card": "card",
@@ -38,7 +35,6 @@
     "row": "row",
     "table": "table"
   },
-
   "f6": {
     "button": "button",
     "card": "card",
@@ -56,5 +52,4 @@
     "row": "row",
     "table": ""
   }
-
 }
