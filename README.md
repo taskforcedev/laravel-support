@@ -16,8 +16,16 @@ Provides a consistant way to get user specified layouts, sitename, and user admi
 
 Add the following line to your composer require: (not necessary if you already have a package which depends on laravel-support)
 
+Laravel 5.3
+
     "require": {
         "taskforcedev/laravel-support": "1.0.*"
+    },
+
+Laravel 5.4
+
+    "require": {
+        "taskforcedev/laravel-support": "1.1.*"
     },
 
 Then if you don't already have the following entry in your config/app.php add it also:
