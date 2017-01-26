@@ -2,6 +2,11 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.1.0] - 2017-01-26
+### Changed
+ - Requires Laravel 5.4+
+ - Reference of AppNamespaceDetectorTrait updated to DetectsApplicationNamespace (Laravel 5.4 change)
+
 ## [1.0.17] - 2017-01-20
 ### Fixed
  - Fix issue with layouts namespace.
