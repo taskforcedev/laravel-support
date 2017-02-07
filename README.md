@@ -8,6 +8,7 @@ Provides a consistant way to get user specified layouts, sitename, and user admi
 - Laravel 5.3+
 
 ## Features
+- Provides a 'base' controller which can be extended to ensure all views have access to the buildData method.
 - Provides a single place to edit config for all Taskforcedev packages (other packages are free to require this also).
 - Provides authorization helper support if your user model follows some of our known conventions.
 - Provides user model namespace detection, allows packages to interact with the user model easily.
@@ -45,12 +46,35 @@ In order to edit the configuration please run the following command to publish t
 
 <code>php artisan vendor:publish --tag="taskforce-support"</code>
 
-# Helpers
-## User
-### Get the user model
+## Controller
+
+The package provides a controller which if extended by your own controllers will provide the method buildData($data = []) which allows all controllers to access the same set of shared data.
+
+As well as the shared data the method also accepts an array for which these extra values will be added to the data object.
+
+Example:
+
+    use Taskforcedev\LaravelSupport\Http\Controllers\Controller
+    
+    class MyController extends Controller
+    {
+        public function index()
+        {
+            $data = [
+                'title' => 'My Page',
+                'description' => 'This is my page',
+            ];
+            $data = $this->buildData();
+            return view('myview', $data);
+        }
+    }
+
+## Helpers
+### User
+#### Get the user model
 This can then be used in eloquent relations within packages to prevent hardcoding or configuring user model in external config.  Or anywhere else where you need the model name of user model.
 
-#### Example
+##### Example
     use Taskforcedev\LaravelSupport\Helpers\User as UserHelper;
 
     Class whatever
