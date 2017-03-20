@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.0.18] - 2017-03-20
+### Fixed
+ - Fix conditional check for framework if framework is ''
+
 ## [1.0.17] - 2017-01-20
 ### Fixed
  - Fix issue with layouts namespace.

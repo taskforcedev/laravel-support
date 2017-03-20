@@ -1,5 +1,5 @@
 <?php
-if (!isset($framework)) {
+if (!isset($framework) || $framework == '') {
     $framework = 'bs4';
 }
 $partial = 'taskforce-support::partials.' . $framework;
