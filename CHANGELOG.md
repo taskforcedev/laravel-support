@@ -17,3 +17,5 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 [Unreleased]: https://github.com/taskforcedev/laravel-support/compare/v1.1.1...1.1.x
 [1.1.1]: https://github.com/taskforcedev/laravel-support/compare/v1.1.0...v1.1.1
+[1.1.0]: https://github.com/taskforcedev/laravel-support/compare/v1.0.17...v1.1.0
+[1.1.x]: https://github.com/taskforcedev/laravel-support/tree/1.1.x
