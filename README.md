@@ -5,7 +5,7 @@ Provides a consistant way to get user specified layouts, sitename, and user admi
 
 ## Requirements
 
-- Laravel 5.3+
+- Laravel 5.3
 
 ## Features
 - Provides a single place to edit config for all Taskforcedev packages (other packages are free to require this also).
