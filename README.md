@@ -3,6 +3,12 @@ Support package for Taskforcedev Laravel packages.
 
 Provides a consistant way to get user specified layouts, sitename, and user administration rights (using conventions on the user model - if applicable).
 
+## Build Status:
+
+1.0.x (Laravel 5.3): [![Build Status](https://travis-ci.org/taskforcedev/laravel-support.svg?branch=1.0.x)](https://travis-ci.org/taskforcedev/laravel-support)
+
+1.1.x (Laravel 5.4): [![Build Status](https://travis-ci.org/taskforcedev/laravel-support.svg?branch=1.1.x)](https://travis-ci.org/taskforcedev/laravel-support)
+
 ## Requirements
 
 - Laravel 5.3+
