@@ -2,7 +2,7 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
+## [1.1.2] - 2017-03-20
 ### Fixed
  - Fix conditional check for framework if framework is ''
 
@@ -19,7 +19,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
  - Add new 1.1.x branch for Laravel 5.4 support
 
-[Unreleased]: https://github.com/taskforcedev/laravel-support/compare/v1.1.1...1.1.x
+[Unreleased]: https://github.com/taskforcedev/laravel-support/compare/v1.1.2...1.1.x
+[1.1.2]: https://github.com/taskforcedev/laravel-support/compare/v1.1.1...v1.1.2
 [1.1.1]: https://github.com/taskforcedev/laravel-support/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/taskforcedev/laravel-support/compare/v1.0.17...v1.1.0
 [1.1.x]: https://github.com/taskforcedev/laravel-support/tree/1.1.x
