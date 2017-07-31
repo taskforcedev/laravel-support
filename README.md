@@ -6,6 +6,7 @@ Provides a consistant way to get user specified layouts, sitename, and user admi
 ## Build Status:
 
 1.0.x (Laravel 5.3): [![Build Status](https://travis-ci.org/taskforcedev/laravel-support.svg?branch=1.0.x)](https://travis-ci.org/taskforcedev/laravel-support)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Ftaskforcedev%2Flaravel-support.svg?type=shield)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Ftaskforcedev%2Flaravel-support?ref=badge_shield)
 
 1.1.x (Laravel 5.4): [![Build Status](https://travis-ci.org/taskforcedev/laravel-support.svg?branch=1.1.x)](https://travis-ci.org/taskforcedev/laravel-support)
 
@@ -99,3 +100,7 @@ Issues and pull requests are always appreciated, particularly anything relating 
 Please ensure any PHP is PSR-2 standard.
 
 For anything else please raise a gihub issue.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Ftaskforcedev%2Flaravel-support.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Ftaskforcedev%2Flaravel-support?ref=badge_large)
