@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.1.3] - 2017-09-01
+### Added
+ - Add package autodiscovery for Laravel 5.5+
+
 ## [1.1.2] - 2017-03-20
 ### Fixed
  - Fix conditional check for framework if framework is ''
