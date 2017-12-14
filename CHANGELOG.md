@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.0.20] - 2017-12-14
+### Fixed
+ - bs3 template: Replace jQuery slim with full jquery.
+
+## [1.0.19] - 2017-12-14
+### Fixed
+ - bs4 template: Remove jQuery Slim and replace with jQuery as required by crud-api.
+
 ## [1.0.18] - 2017-03-20
 ### Fixed
  - Fix conditional check for framework if framework is ''
