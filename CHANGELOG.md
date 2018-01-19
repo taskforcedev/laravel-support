@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.1.4] - 2018-01-19
+### Changed
+ - Update Bootstrap 4 to 4.0.0 release.
+
 ## [1.1.3] - 2017-09-01
 ### Added
  - Add package autodiscovery for Laravel 5.5+
