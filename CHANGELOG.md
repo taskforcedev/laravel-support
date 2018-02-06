@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.1.7] - 2018-02-06
+### Fixed
+ - Fix navbar on bootstrap 4.
+
 ## [1.1.6] - 2018-01-19
 ### Changed
  - Update bootstrap 4 css/js to 4.0.0 release.
